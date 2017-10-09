@@ -1,24 +1,20 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a link aggregator which allows users to add, delete and comment on links . Users that have signed up can view, create and delete links while those that have not signed up can only view the links.Signing up/in requires an email and a password.
 
 Things you may want to cover:
 
 * Ruby version
+Ruby version 2.4.0
 
-* System dependencies
+Rails version 5
 
-* Configuration
+PostgreSQL database on production and Sqlite3 for development
 
-* Database creation
 
-* Database initialization
+ run bundle install to insatll dependecies
 
-* How to run the test suite
+run rake db:migrate to execute the schema.
 
-* Services (job queues, cache servers, search engines, etc.)
+The link to the live site hosted on Heroku:-
 
-* Deployment instructions
-
-* ...
+https://fast-bayou-92179.herokuapp.com/
